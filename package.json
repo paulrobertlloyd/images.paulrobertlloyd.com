@@ -1,0 +1,17 @@
+{
+  "name": "images.paulrobertlloyd.com",
+  "version": "0.0.1",
+  "description": "Image server for my personal website (in development)",
+  "author": "Paul Robert Lloyd",
+  "homepage": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com/issues"
+  },
+  "devDependencies": {
+    "converjon": "^2.0.1"
+  }
+}
