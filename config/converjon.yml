@@ -1,20 +1,18 @@
 server:
-  port: 18837
+  port: 24685
   instance_name: null
   timeout: 20000
   access_log_format: "combined"
 
 test_server:
-  enabled: true
-  port: 8002
+  enabled: false
 
 cache:
   base_path: "tmp/converjon/cache"
 
 download:
   url_whitelist:
-    - "http://localhost:8002/*"
-    - "http://paulrobertlloyd.dev/*"
+    - "http://*.paulrobertlloyd.com/*"
   timeout: 5000
 
 process:

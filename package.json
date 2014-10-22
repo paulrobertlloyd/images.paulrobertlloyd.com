@@ -12,6 +12,12 @@
     "url": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com/issues"
   },
   "devDependencies": {
-    "converjon": "^2.0.1"
+    "converjon": "^2.0.1",
+    "pm2": "^0.11.1"
+  },
+  "scripts": {
+    "start": "node ./node_modules/.bin/pm2 start ./processes.json",
+    "stop": "node ./node_modules/.bin/pm2 stop ./processes.json",
+    "restart": "node ./node_modules/.bin/pm2 restart ./processes.json"
   }
 }

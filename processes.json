@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name": "converjon",
+    "script": "node_modules/.bin/converjon",
+    "args": "['--config=config/converjon.yml']",
+    "instances": "1",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "ignoreWatch": ["[\\/\\\\]\\./", "node_modules"],
+    "watch": true
+    }]
+}
