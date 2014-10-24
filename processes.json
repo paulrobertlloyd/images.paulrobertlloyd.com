@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name": "converjon",
+    "script": "converjon",
+    "args": "['--config=config/converjon.yml']",
+    "instances": "1",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "watch": true
+    }]
+}
