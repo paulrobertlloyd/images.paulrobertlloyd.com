@@ -13,6 +13,7 @@ cache:
 download:
   url_whitelist:
     - "http://*.paulrobertlloyd.com/*"
+    - "http://paulrobertlloyd.dev/*"
   timeout: 5000
 
 process:
