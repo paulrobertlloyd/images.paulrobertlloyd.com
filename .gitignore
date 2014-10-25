@@ -16,7 +16,6 @@ build/Release
 node_modules
 
 # Project specific ignores
-bin/node
-bin/npm
+bin
 lib
 tmp
