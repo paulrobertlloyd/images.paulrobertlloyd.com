@@ -19,6 +19,8 @@ The image server uses [Converjon][4] for image conversion and caching. This proc
 
 `pm2 start converjon.sh`
 
+_Note: the port used by converjon should be unique, i.e. not the same as that used in WebFaction application configuration._
+
 [1]: http://www.imagemagick.org/script/binary-releases.php
 [2]: http://www.sno.phy.queensu.ca/%7Ephil/exiftool/install.html
 [3]: http://nodejs.org/download/
