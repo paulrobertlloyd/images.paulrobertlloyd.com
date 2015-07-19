@@ -8,7 +8,7 @@ test_server:
   enabled: false
 
 cache:
-  base_path: "tmp/converjon/cache"
+  base_path: "tmp/cache"
 
 download:
   url_whitelist:
