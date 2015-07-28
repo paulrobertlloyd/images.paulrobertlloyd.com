@@ -10,6 +10,12 @@ test_server:
 cache:
   base_path: "tmp/converjon"
 
+garbage_collector:
+  enabled: true
+  source: "cache"
+  target: "immediate"
+  interval: 5000
+
 download:
   url_whitelist:
     - "https://*.paulrobertlloyd.com/*"
