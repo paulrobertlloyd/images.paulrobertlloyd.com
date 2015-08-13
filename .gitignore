@@ -10,7 +10,6 @@ pids
 node_modules
 
 # Project specific ignores
-bin
 lib
 tmp
 
