@@ -10,7 +10,7 @@
       "ref": "origin/master",
       "repo": "git@github.com:paulrobertlloyd/images.paulrobertlloyd.com.git",
       "path": "/home/prlloyd/webapps/paulrobertlloyd_images",
-      "post-deploy": "pm2 start ./bin/start.production.sh"
+      "post-deploy": "pm2 start ./bin/start/production.sh"
     }
   }
 }
