@@ -1,0 +1,21 @@
+{
+  "name": "images.paulrobertlloyd.com",
+  "version": "0.2.0",
+  "description": "Image resizing server for paulrobertlloyd.com",
+  "author": "Paul Robert Lloyd",
+  "dependencies": {
+    "converjon": "^2.5.5"
+  },
+  "scripts": {
+    "start": "pm2 startOrRestart ./etc/pm2/production.json",
+    "dev": "pm2 startOrRestart ./etc/pm2/development.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulrobertlloyd/images.paulrobertlloyd.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com/issues"
+  },
+  "homepage": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com#readme"
+}

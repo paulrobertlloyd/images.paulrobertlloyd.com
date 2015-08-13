@@ -34,6 +34,6 @@ cropping:
   default_mode: "aoi_emphasis"
 
 logging:
-  error: "stderr"
-  debug: "stderr"
-  access: "stdout"
+  error: "/var/log/converjon/error.log"
+  debug: "/var/log/converjon/debug.log"
+  access: "/var/log/converjon/access.log"
