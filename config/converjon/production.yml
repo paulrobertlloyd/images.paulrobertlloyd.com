@@ -1,0 +1,6 @@
+alias: local
+
+base_file_path: "/home/prlloyd/webapps/paulrobertlloyd_v3/public/assets/images/"
+
+fallback_base_file_paths:
+  - "/home/prlloyd/webapps/paulrobertlloyd_v3/public/assets/images/"

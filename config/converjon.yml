@@ -20,6 +20,7 @@ download:
   url_whitelist:
     - "https://*.paulrobertlloyd.com/*"
     - "http://paulrobertlloyd.dev/*"
+    - "https://twitter.com/*"
   timeout: 5000
 
 process:
