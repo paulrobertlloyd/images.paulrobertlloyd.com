@@ -13,3 +13,6 @@ node_modules
 bin
 lib
 tmp
+
+# Other files
+.DS_Store

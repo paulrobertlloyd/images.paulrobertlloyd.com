@@ -7,8 +7,8 @@
     "converjon": "^2.5.5"
   },
   "scripts": {
-    "start": "pm2 startOrRestart ./etc/pm2/production.json",
-    "dev": "pm2 startOrRestart ./etc/pm2/development.json"
+    "start": "pm2 start ./bin/start/production.sh",
+    "start-dev": "pm2 start ./bin/start/development.sh"
   },
   "repository": {
     "type": "git",
