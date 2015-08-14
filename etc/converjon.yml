@@ -1,5 +1,5 @@
 server:
-  port: 24685
+  port: 17949
   instance_name: null
   timeout: 20000
   access_log_format: "combined"
