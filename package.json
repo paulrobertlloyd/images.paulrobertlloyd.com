@@ -4,8 +4,8 @@
   "description": "Image resizing server for paulrobertlloyd.com",
   "author": "Paul Robert Lloyd",
   "scripts": {
-    "start": "pm2 start ./bin/start/production.sh",
-    "start-dev": "pm2 start ./bin/start/development.sh"
+    "start": "pm2 start ./bin/start/converjon-production.sh",
+    "start-dev": "pm2 start ./bin/start/converjon-development.sh"
   },
   "repository": {
     "type": "git",
