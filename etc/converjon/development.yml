@@ -1,9 +1,9 @@
 alias: local
 
-base_file_path: "/Users/paulrobertlloyd/Sites/paulrobertlloyd.com/public/assets/images/"
+base_file_path: "/Users/paulrobertlloyd/Sites/paulrobertlloyd.com/public/images/"
 
 fallback_base_file_paths:
-  - "/Users/paulrobertlloyd/Sites/paulrobertlloyd.com/public/assets/images/"
+  - "/Users/paulrobertlloyd/Sites/paulrobertlloyd.com/public/images/"
 
 headers:
   Cache-Control: "max-age=2592001, public"
