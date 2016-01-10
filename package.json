@@ -3,10 +3,7 @@
   "version": "0.2.0",
   "description": "Image resizing server for paulrobertlloyd.com",
   "author": "Paul Robert Lloyd",
-  "scripts": {
-    "start": "pm2 start ./bin/start/converjon-production.sh",
-    "start-dev": "pm2 start ./bin/start/converjon-development.sh"
-  },
+  "private": "true",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paulrobertlloyd/images.paulrobertlloyd.com.git"
@@ -14,5 +11,13 @@
   "bugs": {
     "url": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com/issues"
   },
-  "homepage": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com#readme"
+  "homepage": "https://github.com/paulrobertlloyd/images.paulrobertlloyd.com#readme",
+  "dependencies": {
+    "converjon": "^2.7.1",
+    "pm2": "^1.0.0"
+  },
+  "scripts": {
+    "start": "pm2 start ./bin/start/converjon-production.sh",
+    "start-dev": "pm2 start ./bin/start/converjon-development.sh"
+  }
 }
