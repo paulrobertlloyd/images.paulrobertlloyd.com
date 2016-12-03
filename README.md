@@ -1,5 +1,4 @@
 # images.paulrobertlloyd.com
-**⚠️ DEPRECATED**
 
 Image server for my personal website.
 
