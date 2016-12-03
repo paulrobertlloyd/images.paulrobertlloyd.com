@@ -1,5 +1,5 @@
 # images.paulrobertlloyd.com
-Image server for my personal website.
+⚠️ _DEPRECATED_ Image server for my personal website.
 
 ## Dependencies
   * [ImageMagick][1] (`brew install imagemagick`)
