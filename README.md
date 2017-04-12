@@ -13,11 +13,9 @@ The image server uses [Converjon][4] for image conversion and caching. This proc
 1. Ensure you have ImageMagick and ExifTool dependancies installed. **Converjon will silently fail without these packages present**.
 2. Install Converjon and PM2 dependancies (`npm install`). Alternatively, installing these globally `npm install converjon -g &&  
 npm install pm2 -g` will provide access on the command line.
-3. Start the image server:
-  * Production: `npm start`  
-  * Development: `npm run start-dev`
+3. Start the image server: `npm start`
 
-_Note: the port used by converjon should be unique, i.e. not the same as that used in WebFaction application configuration._
+_Note: the configured port used by converjon should be unique, i.e. not the same as that used in WebFaction application configuration._
 
 [1]: http://www.imagemagick.org/script/binary-releases.php
 [2]: http://www.sno.phy.queensu.ca/%7Ephil/exiftool/install.html

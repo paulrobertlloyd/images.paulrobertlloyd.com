@@ -1,14 +1,11 @@
 server:
-  port: 15443
+  port: 17694
   instance_name: null
   timeout: 20000
   access_log_format: "combined"
 
-test_server:
-  enabled: false
-
 cache:
-  base_path: "tmp/converjon"
+  base_path: "/tmp/converjon/cache"
 
 garbage_collector:
   enabled: true
@@ -19,9 +16,15 @@ garbage_collector:
 download:
   url_whitelist:
     - "https://*.paulrobertlloyd.com/*"
-    - "http://paulrobertlloyd.dev/*"
-    - "https://twitter.com/*"
+    - "https://*.paulrobertlloyd.dev/*"
   timeout: 5000
+
+alias: images
+
+base_file_path: "/home/prlloyd/webapps/paulrobertlloyd_v3/www/images/"
+
+fallback_base_file_paths:
+  - "/Users/paulrobertlloyd/Sites/paulrobertlloyd/www/images/" # Development
 
 process:
   limit: 5

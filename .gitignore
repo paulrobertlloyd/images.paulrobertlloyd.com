@@ -9,8 +9,7 @@ pids
 # Dependency directory
 node_modules
 
-# Project specific ignores
-lib
+# Temporary files
 tmp
 
 # Other files
