@@ -15,10 +15,13 @@
   "dependencies": {
     "converjon": "^2.7.0",
     "pm2": "^2.4.0",
-    "snyk": "^1.28.0"
+    "snyk": "^1.41.1"
   },
   "scripts": {
     "converjon": "converjon --config ./etc/converjon.yml",
-    "start": "pm2 start npm -- run converjon"
-  }
+    "start": "pm2 start npm -- run converjon",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
